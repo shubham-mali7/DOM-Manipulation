@@ -1,0 +1,6 @@
+
+DOM MANIPULATION 
+
+> defer is the bestest way to link your javascript file to your html file as it increases website performance 
+
+> defer is best because html parsing and js file loading takes place simultaneously so execution becomes faster and also optimize the performance

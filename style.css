@@ -166,9 +166,9 @@ a {
 }
 
 @media only screen and (max-width: 800px) {
-  body {
-    /* background-color: beige; */
-  }
+  /* body {
+    background-color: beige;
+  } */
   .nav {
     flex-direction: column;
     /* border: 1px solid yellow; */
@@ -179,9 +179,9 @@ a {
 }
 
 @media only screen and (max-width: 540px) {
-  body {
-    /* background-color: lightsalmon; */
-  }
+  /* body {
+    background-color: lightsalmon;
+  } */
   .form-todo input[type="submit"] {
     width: 22%;
     font-weight: bold;
