@@ -167,7 +167,7 @@ a {
 
 @media only screen and (max-width: 800px) {
   body {
-    background-color: beige;
+    /* background-color: beige; */
   }
   .nav {
     flex-direction: column;
@@ -180,7 +180,7 @@ a {
 
 @media only screen and (max-width: 540px) {
   body {
-    background-color: lightsalmon;
+    /* background-color: lightsalmon; */
   }
   .form-todo input[type="submit"] {
     width: 22%;
