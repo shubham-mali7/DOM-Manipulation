@@ -90,6 +90,19 @@ a {
   margin-top: 4rem;
   text-align: center;
 }
+
+
+/* demo classes */
+.bgDark {
+  background-color: black;
+  color: #ffff;
+}
+.bgWhite {
+  background-color: #ffff;
+  color: black;
+}
+/*/ demo classes */
+
 .form-todo {
   /* border: 2px solid red; */
   min-height: 6vh;
@@ -112,6 +125,18 @@ a {
   color: #ffff;
   font-weight: bold;
   border-radius: 0 20px 20px 0;
+}
+.todo-list{
+ text-align: left;
+ font-size: 1.2rem;
+ list-style-type: none; 
+}
+.todo-list li{
+padding: 0.8rem;
+background-color: #444;
+color: cyan;
+margin-top: 1rem;
+text-transform:capitalize;
 }
 
 .signUp-section {

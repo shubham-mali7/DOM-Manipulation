@@ -24,3 +24,11 @@ DOM MANIPULATION
  >The text inside HTML elements are text nodes
  >Every HTML attribute is an attribute node (deprecated)
  >All comments are comment nodes
+
+
+> Ham queryselector kisibhi element node pai laga sakte hai 
+for example : document.queryselector , head.queryselector , html.queryselector etc.
+
+> toggle: agar class hai toh usse remove karta hai , agar nahi hai toh add karta hai // ClassList
+
+> const li2 = li.cloneNode(true); // true over here signifies deep cloning , that means child of li will also get cloned properly
