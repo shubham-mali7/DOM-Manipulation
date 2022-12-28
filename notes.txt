@@ -4,3 +4,23 @@ DOM MANIPULATION
 > defer is the bestest way to link your javascript file to your html file as it increases website performance 
 
 > defer is best because html parsing and js file loading takes place simultaneously so execution becomes faster and also optimize the performance
+
+> There is one minute difference between textContent and innerText --------------imp IntQ
+
+>let a = 5 ;
+ a += 4;
+ console.log(a); == 9 
+
+ \" ========> " (backslash is ignored)
+
+ Document ----> Javascript Object ----> Root Node
+
+ child node of document -----> HTML ----> Root element
+
+ >Dom Traversing -----> Agar hame root node pata hona, toh root node sai poore tree mai hum kahibhi jaa sakte hai (sab kuch connected hai).
+
+ >The entire document is a document node
+ >Every HTML element is an element node
+ >The text inside HTML elements are text nodes
+ >Every HTML attribute is an attribute node (deprecated)
+ >All comments are comment nodes

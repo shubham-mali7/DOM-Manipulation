@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <script src="script.js" defer></script>
+    <script src="dom-Traversing.js" defer></script>
     <title>My Webpage</title>
   </head>
   <body>
@@ -13,13 +13,15 @@
       <nav class="container nav">
         <h1 class="logo">Svadhyay.in</h1>
         <ul class="nav-items">
-          <li><a href="#">Home</a></li>
-          <li><a href="#">To-Do</a></li>
-          <li><a href="#">Sign-Up</a></li>
+          <li class="navItem"><a href="#">Home</a></li>
+          <li class="navItem"><a href="#">To-Do</a></li>
+          <li class="navItem"><a href="#">Sign-Up</a></li>
         </ul>
       </nav>
       <div class="headLine">
-        <h2>Manage Your Tasks</h2>
+        <h2 id="main-heading">
+          Manage Your Tasks <span style="display: none">Hello!</span>
+        </h2>
         <button class="btn btn-headLine">Explore More</button>
       </div>
     </header>
