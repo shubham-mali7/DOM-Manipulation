@@ -32,3 +32,9 @@ for example : document.queryselector , head.queryselector , html.queryselector e
 > toggle: agar class hai toh usse remove karta hai , agar nahi hai toh add karta hai // ClassList
 
 > const li2 = li.cloneNode(true); // true over here signifies deep cloning , that means child of li will also get cloned properly
+
+--------->  difference in usage of querySelectorAll and getElementsbySomething <-----------
+
+> queryselectorAll hamein statis list degi // Mostly querySelector are used
+
+> getElementsbySomething hamein live list degi  

@@ -91,7 +91,6 @@ a {
   text-align: center;
 }
 
-
 /* demo classes */
 .bgDark {
   background-color: black;
@@ -126,18 +125,20 @@ a {
   font-weight: bold;
   border-radius: 0 20px 20px 0;
 }
-.todo-list{
- text-align: left;
- font-size: 1.2rem;
- list-style-type: none; 
+/* demo list  */
+.todo-list {
+  text-align: left;
+  font-size: 1.2rem;
+  list-style-type: none;
 }
-.todo-list li{
-padding: 0.8rem;
-background-color: #444;
-color: cyan;
-margin-top: 1rem;
-text-transform:capitalize;
+.todo-list li {
+  padding: 0.8rem;
+  background-color: #444;
+  color: cyan;
+  margin-top: 1rem;
+  text-transform: capitalize;
 }
+/*/ demo list  */
 
 .signUp-section {
   margin: 5rem auto;
