@@ -1,6 +1,8 @@
 
 DOM MANIPULATION 
 
+> ctrl + shift + j ----> to open console directly
+
 > defer is the bestest way to link your javascript file to your html file as it increases website performance 
 
 > defer is best because html parsing and js file loading takes place simultaneously so execution becomes faster and also optimize the performance
@@ -38,3 +40,14 @@ for example : document.queryselector , head.queryselector , html.queryselector e
 > queryselectorAll hamein statis list degi // Mostly querySelector are used
 
 > getElementsbySomething hamein live list degi  
+
+> event bubbling / event propagation 
+> event capturing
+> Event delegation 
+
+event bubbling ---> aapne kisi ek event pai click kia agar uske parent pai bhi same event laga hua hai toh voh bhi call hojaega
+
+google ki bhasha mai : Event Bubbling is a concept in the DOM (Document Object Model). It happens when an element receives an event, and that event bubbles up (or you can say is transmitted or propagated) to its parent and ancestor elements in the DOM tree until it gets to the root element.
+
+
+  e.preventDefault();-------------->Remember--->7:58:30----->Mostly used & important 

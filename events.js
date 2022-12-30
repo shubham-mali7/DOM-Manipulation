@@ -2,7 +2,7 @@
 // click
 // event add karneke 3 tarike hain
 
-const btn = document.querySelector(".btn-headLine");
+const btnHeadline = document.querySelector(".btn-headLine");
 // console.log(btn);
 // btn.onclick = function () {
 //   console.log("you clicked me!!!!");
@@ -14,15 +14,16 @@ const btn = document.querySelector(".btn-headLine");
 //     console.log("you clicked me !!!!!!!!");
 //   });
 
-btn.addEventListener("click", () => {
+btnHeadline.addEventListener("click", () => {
   alert("hellooooo");
-});
+  console.log('you clicked me !')
+}); // explore more
 
 //--------------------------------------------->
 const demoBtn = document.querySelector(".demoBtn");
 // console.log(demoBtn);
 
 demoBtn.addEventListener("click", () => {
-    console.log('you clicked me!!!!');
-    alert("helloooooooo!!!!");
-});
+  console.log("you clicked me!!!!");
+//   alert("helloooooooo!!!!");
+}); // add todo
