@@ -215,6 +215,26 @@ a {
   }
 }
 
+@media only screen and (max-width: 625px) {
+  /* body {
+    background-color: lightskyblue;
+  } */
+  .todo-buttons {
+    display: flex;
+  }
+  .todo-buttons .done {
+    padding: 0.5rem 0.95rem;
+    font-size: 0.895rem;
+  }
+  .todo-buttons .remove {
+    padding: 0.5rem 0.95rem;
+    font-size: 0.895rem;
+  }
+  .text {
+    font-size: 0.952rem;
+  }
+}
+
 @media only screen and (max-width: 540px) {
   /* body {
     background-color: lightsalmon;
